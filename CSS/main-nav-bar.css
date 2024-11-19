@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
 header {
     padding: 20px 0px;
     width: 100%;
@@ -56,9 +57,45 @@ a>h1 {
 
 
 li {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
 }
+.deep{
+    position: relative;
+}
+/* -- format for the frist deep drop  --> */
+.a-deep-drop{
+    color: black;
+}
 .deep__drop {
-    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    top: 48px;
+    left: 0;
+    width: 150px;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+}
+/* -- format for the frist deep drop  --> */
+.deep__drop__two {
+    position: absolute;
+    background-color: white;
+    top: -20px;
+    left: -165px;
+    width: 150px;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
 }
