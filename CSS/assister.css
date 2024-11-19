@@ -1,6 +1,12 @@
-/* -- to display flex --> */
+/* --____________ to display flex ____________--> */
 .dis-flex {
     display: flex !important;
+}
+.flex-direction-column{
+    flex-direction: column !important;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 .align-items-center {
     align-items: center !important; 
@@ -26,8 +32,97 @@
 .justify-content-flex-end {
     justify-content: flex-end !important;
 }
+.align-content-end{
+    align-content: end;
+}
 .fexed-top{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+.position-relative {
+    position: relative !important;
+}
+.position-absolute{
+    position: absolute !important;
+}
+
+/* --____________ fonts ____________--> */
+.font-raleway{
+    font-family: "Raleway", sans-serif !important;
+}
+.font-roboto{
+    font-family: "Roboto", system-ui !important;
+}
+/* .font-poppins{
+    font-family: ;
+} */
+.font-size-10px{
+    font-size: 10px !important;
+}
+.font-size-12px{
+    font-size: 12px !important;
+}
+.font-size-13px{
+    font-size: 13px !important;
+}
+.font-size-15px{
+    font-size: 15px !important;
+}
+.font-size-16px{
+    font-size: 16px !important;
+}
+.font-size-18px{
+    font-size: 18px !important;
+}
+.font-size-20px{
+    font-size: 20px !important;
+}
+.font-size-22px{
+    font-size: 22px !important; 
+}
+.font-size-23px{
+    font-size: 23px !important; 
+}
+.font-size-24px{
+    font-size: 24px !important; 
+}
+.font-size-25px{
+    font-size: 25px !important;
+}
+.font-size-26px{
+    font-size: 26px !important;
+}
+.font-size-28px{
+    font-size: 28px !important;
+}
+.font-size-30px{
+    font-size: 30px !important;
+}
+.font-size-32px{
+    font-size: 32px !important;
+}
+.font-size-35px{
+    font-size: 35px !important;
+}
+.font-size-40px{
+    font-size: 40px !important;
+}
+.font-size-48px{
+    font-size: 48px !important;
+}
+.font-size-50px{
+    font-size: 50px !important;
+}
+.font-bold{
+    font-weight: bold !important;
+}
+.font-waight-100{
+    font-weight: 100;
+}
+.line-height-1point5{
+    line-height: 1.5;
+}
+.margin-bottom-40px{
+    margin-top: -40px;
 }
