@@ -1,0 +1,85 @@
+.home__sec {
+    width: 100%;
+    height: 70vh;
+    background-color: blue;
+    background-image: url(/img/hero-bg-2.jpg);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 795px;
+    padding: 120px 0px 120px 0px;
+}
+
+.home__sec::before {
+    content: "";
+    background:color-mix(in srgb, #08005e, transparent 10%);
+    position: absolute;
+    inset: 0;
+}
+/* -- intro pragraphe --> */
+.intro-p{
+    z-index: 3;
+    /* background-color: aliceblue; */
+    width: 575px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: #bbb9d3;
+}
+.frist-line{
+    display: block;
+}
+.frist-line-h{
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+}
+.frist-line-span{
+    color: white;
+    position: relative;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+}
+.frist-line-span::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #1acc8d;
+    bottom: 0;
+    left: 0;
+}
+.sec-line{
+    margin: 5px 0px 30px;
+    color : rgb(1, 1, 1 /0.7);
+    font-family: "Roboto", system-ui;
+    font-size: 22px;
+}
+.start-botton{
+    font-size: 15px;
+    font-family: "Roboto", system-ui;
+    color: rgb(1, 1, 1 /0.7);
+    padding: 10px 28px 12px;
+    border-radius: 50PX;
+    background-color: #1acc8d;
+}
+.sec-botton{
+    margin: 0px 0px 0px 25px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Roboto", system-ui;
+}
+.play-c{
+    font-size: 35px;
+    color: #1acc8d;
+}
+/* -- flooting imge --> */
+.floot-img{
+    z-index: 3;
+}
+.floot-img>img{
+    width: 416px;
+}
