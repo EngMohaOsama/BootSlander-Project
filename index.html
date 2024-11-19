@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,41 +17,46 @@
 
 <body>
     <!-- --================== Header =====================-- -->
-    <header class="hdr">
+    <header class="hdr fexed-top">
         <!-- --================== NAV BAR =====================-- -->
-        <div class="nav">
+        <div class="nav dis-flex align-items-center justify-content-space-between">
             <!-- --================== NAV head =====================-- -->
             <a href="#" class="nav-head">
                 <h1 class=".nav-head">bootslander</h1>
             </a>
             <!-- --================== NAV manu =====================-- -->
-            <nav >
-                <ul class="nav-ul">
-                    <li>
+            <nav>
+                <ul class="dis-flex align-items-center justify-content-flex-end">
+                    <li class="nav__link">
                         <a href="#">home</a>
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">about</a>
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">features</a>
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">gallery</a>
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">team</a>
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">pricing</a>
                     </li>
                     <!-- --================== DROPDOWN =====================-- -->
-                    <li>
-                        <a href="#">dropdown</a>
+                    <li class="deep__drop nav__link ">
+                        <a href="#">dropdown <i class="ri-arrow-down-s-line"></i></a>
                         <!-- <ul>
-                            <li></li>
-                            <li></li>
                             <li>
+                                <a href="#">dropdown 1</a>
+                            </li>
+                            <li>
+                                <a href="#">dropdown 2</a>
+                            </li>
+                            <li>
+                                <a href="#">deep dropdown</a>
                                 <ul>
                                     <li></li>
                                     <li></li>
@@ -59,11 +65,15 @@
                                     <li></li>
                                 </ul>
                             </li>
-                            <li></li>
-                            <li></li>
+                            <li>
+                                <a href="#">dropdown 3</a>
+                            </li>
+                            <li>
+                                <a href="#">dropdown 4</a>
+                            </li>
                         </ul> -->
                     </li>
-                    <li>
+                    <li class="nav__link">
                         <a href="#">contact</a>
                     </li>
             </nav>
