@@ -26,6 +26,9 @@
 .justify-content-space-around {
     justify-content: space-around !important;
 }
+.justify-content-space-evenly{
+    justify-content: space-evenly;
+}
 .justify-content-flex-start {
     justify-content: flex-start !important;
 }
@@ -125,4 +128,47 @@
 }
 .margin-bottom-40px{
     margin-top: -40px;
+}
+.margin-left-20px{
+    margin-left: 20px;
+}
+/* --____________ colors ____________--> */
+.color__ffbb2c{
+    color: #ffbb2c;
+}
+.color__5578ff{
+    color: #5578ff;
+}
+.color__e80368{
+    color: #e80368;
+}
+.color__e361ff{
+    color: #e361ff;
+}
+.color__47aeff{
+    color: #47aeff;
+}
+.color__ffa76e{
+    color: #ffa76e;
+}
+.color__11dbcf{
+    color: #11dbcf;
+}
+.color__4233ff{
+    color: #4233ff;
+}
+.color__b2904f{
+    color: #b2904f;
+}
+.color__b20969{
+    color: #b20969;
+}
+.color__ff5828{
+    color: #ff5828;
+}
+.color__29cc61{
+    color: #29cc61;
+}
+.color__1acc8d{
+    color: #1acc8d;
 }

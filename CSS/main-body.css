@@ -1,4 +1,18 @@
 /* --=== Home section ===--> */
+:root{
+    --background-color: #ffffff;
+    --default-color: #444444;
+    --heading-color: #040677;
+    --accent-color: #1acc8d;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+    --light-background-color:#f4f5fe;
+}
+:root {
+    --default-font: "Roboto", system-ui;
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+}
 .home__sec {
     width: 100%;
     /* height: 70vh; */
@@ -14,10 +28,9 @@
     position: absolute;
     inset: 0;
 }
-/* -- intro pragraphe --> */
+/* --==== intro pragraphe ===--> */
 .intro-p{
     z-index: 3;
-    /* background-color: aliceblue; */
     width: 575px;
     height: 380px;
     color: #bbb9d3;
@@ -57,7 +70,7 @@
 .floot-img{
     z-index: 3;
 }
-.floot-img>img{
+.floot-img img{
     width: 416px;
 }
 /* --=== About section ===--> */
@@ -69,13 +82,14 @@
     align-items: flex-start;
     justify-content: center;
 }
+/* --=== div contaner (about section) ===--> */
 .about__contant{
-    /* background-color: black; */
     width: 1320px;
     height: 702px;
     display: flex;
     align-items: center;
 }
+/* --=== left pragraph ===--> */
 .about__us{
     width: 550px;
     height: 300px;
@@ -100,6 +114,7 @@
     padding: 12px 24px;
     border-radius: 5px;
 }
+/* --=== right four pragraphes ===--> */
 .about__wendow{
     width: 770px;
     height: 100%;
@@ -129,4 +144,146 @@
     color: #1acc8d;
     font-size: 32px;
     margin-bottom: 24px;
+}
+/* --=== hover color changing about us wendows ===--> */
+.wendow-1:hover>div>div{
+    color: #f3fcf9;
+    background-color: var(--accent-color);
+}
+.wendow-2:hover>div>div{
+    color: #f3fcf9;
+    background-color: var(--accent-color);
+}
+.wendow-3:hover>div>div{
+    color: #f3fcf9;
+    background-color: var(--accent-color);
+}
+.wendow-4:hover>div>div{
+    color: #f3fcf9;
+    background-color: var(--accent-color);
+}
+/* --=== about secand section ===--> */
+.about-sec-sec{
+    padding: 60px 0;
+    height: 390px;
+    width: 100%;
+}
+.about-sec-box{
+    width: 1320px;
+    height: 294px;
+}
+.about-sec-wendow{
+    width: 304px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+}
+.about-sec-wendow a{
+    width: 100%;
+    height: 100%;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--heading-font);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+/* --=== hover color changing about secand section ===--> */
+.about-sec-wendow-1:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-2:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-3:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-4:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-5:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-6:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-7:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-8:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-9:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-10:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-11:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.about-sec-wendow-12:hover{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+/* --=== feature frist section ===--> */
+.feature-frist-sec{
+    width: 100%;
+    height: 280px;
+    padding: 60px 0px;
+    background-color: var(--light-background-color);
+    color: var(--default-color);
+}
+.feature-frist-div{
+    width: 1320px;
+    height: 184px;
+}
+.feature-frist-box{
+    width: 330px;
+    height: 160px;
+    padding: 0px 12px;
+    margin-top: 24px;
+    align-content: flex-end;
+}
+.feature-frist-box-stat{
+    padding: 30px 30px 25px;
+    height: 133px;
+    position: relative;
+    background-color: var(--surface-color);
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.feature-frist-box-stat span{
+    font-family: var(--default-font);
+    font-size: 36px;
+    font-weight: bold;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+}
+.feature-frist-box-stat p{
+    font-size: 16px;
+}
+.feature-frist-box-stat div{
+    position: absolute;
+    top: -26px;
+    left: 127px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: var(--surface-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    align-content: center;
 }
