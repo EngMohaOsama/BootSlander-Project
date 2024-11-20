@@ -287,3 +287,197 @@
     text-align: center;
     align-content: center;
 }
+/* --=== feature secand section ===--> */
+.feature-secand-sec{
+    width: 100%;
+    height: 3338px;
+    padding: 60px 0px;
+    background-color: var(--background-color);
+}
+/* --=== feature secand section frist div ===--> */
+.feat-secn-div{
+    width: 1320px;
+    height: 111px;
+    padding: 0px 12px 60px;
+    margin: 0px 171.5px;
+}
+.feat-secn-div h2{
+    color: color-mix(in srgb, var(--default-color) , transparent 50%);
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+}
+.feat-secn-div h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    background-color: var(--accent-color);
+    margin: 10px 10px;
+}
+.feat-secn-div div{
+    color: var(--heading-color);
+}
+/* --=== feature secand section secand div ===--> */
+.feat-secn-div-two{
+    width: 1320px;
+    height: 633px;
+}
+.fsdt-div-one{
+    width: 550px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.fsdt-div-one img{
+    width: 526px;
+}
+.fsdt-div-two{
+    width: 770px;
+    padding: 0px 12px;
+}
+.fsdt-div-two h2{
+    color: var(--heading-color);
+    margin-bottom: 8px;
+}
+.fsdt-div-two p{
+    text-transform: none;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    margin-bottom: 16px;
+}
+.fsdt-div-two li{
+    text-transform: none;
+    padding-bottom: 10px;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+}
+/* --=== feature secand section thierd div ===--> */
+.feat-secn-div-three{
+    width: 1320px;
+    height: 531px;
+    margin-top: 100px;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    font-size: 16px;
+}
+.fsd3-div-one{
+    width: 770px;
+}
+.fsd3-div-one h3{
+    color: var(--heading-color);
+}
+.fsd3-div-two{
+    width: 550px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.fsd3-div-two img{
+    width: 526px;
+}
+/* --=== feature secand section fourth div ===--> */
+.feat-secn-div-four{
+    width: 1320px;
+    height: 917px;
+}
+.fsd4-div-one{
+    width: 550px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.fsd4-div-one img{
+    width: 526px;
+}
+.fsd4-div-two{
+    width: 770px;
+    padding: 0px 12px;
+}
+.fsd4-div-two h3{
+    color: var(--heading-color);
+    margin-bottom: 8px;
+}
+.fsd4-div-two p{
+    text-transform: none;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    margin-bottom: 16px;
+}
+.fsd4-div-two li{
+    text-transform: none;
+    padding-bottom: 10px;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+}
+/* --=== feature secand section 5th div ===--> */
+.feat-secn-div-five{
+    width: 1320px;
+    height: 748px;
+    margin-top: 100px;
+    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    font-size: 16px;
+}
+.fsd5-div-one{
+    width: 770px;
+    padding: 0px 12px;
+}
+.fsd5-div-one h3{
+    color: var(--heading-color);
+}
+.fsd5-div-two{
+    width: 550px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+.fsd5-div-two img{
+    width: 526px;
+}
+/* --=== gallery section ===--> */
+.gallery-sec{
+    width: 100%;
+    height: 718px;
+    padding: 60px 0px;
+    background-color: var(--background-color);
+}
+.gsd-one{
+    width: 1320px;
+    height: 485.5px;
+    margin: 0px 171.5px;
+    padding: 0px 12px;
+    gap: 4px;
+}
+.gsd-box{
+    width: 321px;
+    height: 240.75px;
+    overflow: hidden;
+}
+.gsd-box img{
+    width: 321px;
+    transition: all ease-in-out 0.4s;
+}
+/* --=== gallery section hover ===--> */
+.gsd-box-one:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-two:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-three:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-four:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-five:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-six:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-seven:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gsd-box-eight:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
