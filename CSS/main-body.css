@@ -80,12 +80,21 @@
 /* -- flooting imge --> */
 .floot-img {
     z-index: 3;
+    animation: moving-1 2s ease-in-out infinite alternate-reverse both;
 }
 
 .floot-img img {
     width: 416px;
 }
-
+/* -- animation for imge --> */
+@keyframes moving-1{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
 /* --=== About section ===--> */
 .about__sec {
     padding: 100px 0px 60px 0px;
