@@ -19,7 +19,7 @@
     width: 100%;
     /* height: 70vh; */
     background-color: blue;
-    background-image: url(/img/hero-bg-2.jpg);
+    background-image: url(./img/hero-bg-2.jpg);
     height: 795px;
     padding: 120px 0px 120px 0px;
 }
@@ -598,7 +598,7 @@
     width: 100%;
     height: 488px;
     position: relative;
-    background-image: url(/img/testimonials-bg.jpg);
+    background-image: url(./img/testimonials-bg.jpg);
 }
 
 .gallery-secand-sec::before {
