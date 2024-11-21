@@ -87,6 +87,7 @@ a>h1 {
     align-items: center;
     justify-content: space-evenly;
     opacity: 0;
+    transition: all ease-in-out 0.4s;
 }
 /* -- format for the frist deep drop  --> */
 .deep__drop__two {
@@ -103,6 +104,7 @@ a>h1 {
     align-items: center;
     justify-content: space-evenly;
     opacity: 0;
+    transition: all ease-in-out 0.4s;
 }
 /* -- nav havaring  --> */
 .nav__havering__1:hover.nav__link::after{
