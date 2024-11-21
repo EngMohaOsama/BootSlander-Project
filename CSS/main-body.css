@@ -67,16 +67,26 @@
     padding: 10px 28px 12px;
     border-radius: 50PX;
     background-color: #1acc8d;
+    font-weight: 400;
+    transition: all ease-in-out 0.4s;
 }
 
 .sec-botton {
     margin: 0px 0px 0px 25px;
+    font-weight: 600;
+    transition: all ease-in-out 0.4s;
 }
 
 .play-c {
     color: #1acc8d;
 }
-
+/* --==== intro hover ===--> */
+.start-botton:hover{
+    opacity: 0.9;
+}
+.sec-botton:hover{
+    color: var(--accent-color);
+}
 /* -- flooting imge --> */
 .floot-img {
     z-index: 3;
@@ -172,7 +182,7 @@
     width: 361px;
     border-radius: 13px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
 }
 
 .wendow-fram h3 {
@@ -834,7 +844,10 @@
     margin-bottom: 8px;
     color: var(--heading-color);
 }
-
+/* --=== hover questio ===--> */
+.freq-one-div:hover{
+    color: var(--accent-color);
+}
 .freq-div-one p {
     margin-bottom: 16px;
     text-transform: none;
@@ -874,8 +887,12 @@
     top: 20px;
     right: 20px;
     font-size: 16px;
+    color: #444444;
 }
-
+/* --=== hover arrow ===--> */
+.freq-arrow:hover{
+    color: var(--accent-color);
+}
 /* --=== frequantly asked questions img ===--> */
 .freq-sec-div-two {
     width: 693px;
@@ -918,7 +935,11 @@
     font-weight: 100;
     margin-right: 15px;
 }
-
+/* --=== contact hover ===--> */
+.info-items:hover .info-icon{
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
 /* --=== form  ===--> */
 .form-div {
     width: 880px;
@@ -998,7 +1019,12 @@
     align-content: center;
     text-align: center;
 }
-
+.foot-icons{
+    transition: all ease-in-out 0.4s;
+}
+.foot-icons:hover{
+    color: var(--accent-color);
+}
 /* --===  secand div of footer ===--> */
 .foot-one-div-2 {
     width: 220px;
@@ -1109,4 +1135,26 @@
     margin: 24px 171.5px 0px;
     padding: 25px 0px;
     color: var(--contrast-color);
+}
+.foot-link{
+    transition: all ease-in-out 0.4s;
+}
+.foot-link:hover{
+    opacity: 0.8;
+}
+.to-top{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    align-content: center;
+    text-align: center;
+}
+.to-top:hover{
+    opacity: 0.7;
 }
