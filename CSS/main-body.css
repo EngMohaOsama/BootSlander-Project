@@ -1,18 +1,20 @@
 /* --=== Home section ===--> */
-:root{
+:root {
     --background-color: #ffffff;
     --default-color: #444444;
     --heading-color: #040677;
     --accent-color: #1acc8d;
     --surface-color: #ffffff;
     --contrast-color: #ffffff;
-    --light-background-color:#f4f5fe;
+    --light-background-color: #f4f5fe;
 }
+
 :root {
     --default-font: "Roboto", system-ui;
     --heading-font: "Raleway", sans-serif;
     --nav-font: "Poppins", sans-serif;
 }
+
 .home__sec {
     width: 100%;
     /* height: 70vh; */
@@ -24,24 +26,28 @@
 
 .home__sec::before {
     content: "";
-    background:color-mix(in srgb, #08005e, transparent 10%);
+    background: color-mix(in srgb, #08005e, transparent 10%);
     position: absolute;
     inset: 0;
 }
+
 /* --==== intro pragraphe ===--> */
-.intro-p{
+.intro-p {
     z-index: 3;
     width: 575px;
     height: 380px;
     color: #bbb9d3;
 }
-.frist-line{
+
+.frist-line {
     display: block;
 }
-.frist-line-span{
+
+.frist-line-span {
     color: white;
 }
-.frist-line-span::after{
+
+.frist-line-span::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -50,31 +56,38 @@
     bottom: 0;
     left: 0;
 }
-.sec-line{
+
+.sec-line {
     margin: 5px 0px 30px;
-    color : rgb(1, 1, 1 /0.7);
+    color: rgb(1, 1, 1 /0.7);
 }
-.start-botton{
+
+.start-botton {
     color: rgb(1, 1, 1 /0.7);
     padding: 10px 28px 12px;
     border-radius: 50PX;
     background-color: #1acc8d;
 }
-.sec-botton{
+
+.sec-botton {
     margin: 0px 0px 0px 25px;
 }
-.play-c{
+
+.play-c {
     color: #1acc8d;
 }
+
 /* -- flooting imge --> */
-.floot-img{
+.floot-img {
     z-index: 3;
 }
-.floot-img img{
+
+.floot-img img {
     width: 416px;
 }
+
 /* --=== About section ===--> */
-.about__sec{
+.about__sec {
     padding: 100px 0px 60px 0px;
     height: 813px;
     width: 100%;
@@ -82,59 +95,80 @@
     align-items: flex-start;
     justify-content: center;
 }
+
 /* --=== div contaner (about section) ===--> */
-.about__contant{
+.about__contant {
     width: 1320px;
     height: 702px;
     display: flex;
     align-items: center;
 }
+
 /* --=== left pragraph ===--> */
-.about__us{
+.about__us {
     width: 550px;
     height: 300px;
 }
-.about__us h3{
+
+.about__us h3 {
     padding: 10px 20px;
     margin-bottom: 8px;
     background-color: #f3fcf9;
     color: #1acc8d;
     width: fit-content;
 }
-.about__us h2{
+
+.about__us h2 {
     margin-bottom: 8px;
     color: #040677;
 }
-.about__us p{
+
+.about__us p {
     margin-bottom: 16px;
 }
-.about__us a{
+
+.about__us a {
     color: white;
     background-color: #1acc8d;
     padding: 12px 24px;
     border-radius: 5px;
 }
+.read-arrow{
+    margin-right: 5px;
+}
+/* --=== hover button ===--> */
+.read-me-but:hover{
+    opacity: 0.8;
+}
+.read-me-but:hover .read-arrow{
+    margin-left: 5px;
+    margin-right: 0;
+}
 /* --=== right four pragraphes ===--> */
-.about__wendow{
+.about__wendow {
     width: 770px;
     height: 100%;
 }
-.wendow{
+
+.wendow {
     width: 385px;
     height: 351px;
 }
-.wendow-fram{
+
+.wendow-fram {
     padding: 50px 40px;
     width: 361px;
     border-radius: 13px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.wendow-fram h3{
+
+.wendow-fram h3 {
     margin-bottom: 10px !important;
     color: #040677;
 }
-.wendow-fram div{
+
+.wendow-fram div {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -145,40 +179,48 @@
     font-size: 32px;
     margin-bottom: 24px;
 }
+
 /* --=== hover color changing about us wendows ===--> */
-.wendow-1:hover>div>div{
+.wendow-1:hover>div>div {
     color: #f3fcf9;
     background-color: var(--accent-color);
 }
-.wendow-2:hover>div>div{
+
+.wendow-2:hover>div>div {
     color: #f3fcf9;
     background-color: var(--accent-color);
 }
-.wendow-3:hover>div>div{
+
+.wendow-3:hover>div>div {
     color: #f3fcf9;
     background-color: var(--accent-color);
 }
-.wendow-4:hover>div>div{
+
+.wendow-4:hover>div>div {
     color: #f3fcf9;
     background-color: var(--accent-color);
 }
+
 /* --=== about secand section ===--> */
-.about-sec-sec{
+.about-sec-sec {
     padding: 60px 0;
     height: 390px;
     width: 100%;
 }
-.about-sec-box{
+
+.about-sec-box {
     width: 1320px;
     height: 294px;
 }
-.about-sec-wendow{
+
+.about-sec-wendow {
     width: 304px;
     height: 72px;
     display: flex;
     align-items: center;
 }
-.about-sec-wendow a{
+
+.about-sec-wendow a {
     width: 100%;
     height: 100%;
     border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -190,75 +232,91 @@
     align-items: center;
     gap: 5px;
 }
+
 /* --=== hover color changing about secand section ===--> */
-.about-sec-wendow-1:hover{
+.about-sec-wendow-1:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-2:hover{
+
+.about-sec-wendow-2:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-3:hover{
+
+.about-sec-wendow-3:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-4:hover{
+
+.about-sec-wendow-4:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-5:hover{
+
+.about-sec-wendow-5:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-6:hover{
+
+.about-sec-wendow-6:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-7:hover{
+
+.about-sec-wendow-7:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-8:hover{
+
+.about-sec-wendow-8:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-9:hover{
+
+.about-sec-wendow-9:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-10:hover{
+
+.about-sec-wendow-10:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-11:hover{
+
+.about-sec-wendow-11:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
-.about-sec-wendow-12:hover{
+
+.about-sec-wendow-12:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
+
 /* --=== feature frist section ===--> */
-.feature-frist-sec{
+.feature-frist-sec {
     width: 100%;
     height: 280px;
     padding: 60px 0px;
     background-color: var(--light-background-color);
     color: var(--default-color);
 }
-.feature-frist-div{
+
+.feature-frist-div {
     width: 1320px;
     height: 184px;
 }
-.feature-frist-box{
+
+.feature-frist-box {
     width: 330px;
     height: 160px;
     padding: 0px 12px;
     margin-top: 24px;
     align-content: flex-end;
 }
-.feature-frist-box-stat{
+
+.feature-frist-box-stat {
     padding: 30px 30px 25px;
     height: 133px;
     position: relative;
@@ -266,16 +324,19 @@
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.feature-frist-box-stat span{
+
+.feature-frist-box-stat span {
     font-family: var(--default-font);
     font-size: 36px;
     font-weight: bold;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
-.feature-frist-box-stat p{
+
+.feature-frist-box-stat p {
     font-size: 16px;
 }
-.feature-frist-box-stat div{
+
+.feature-frist-box-stat div {
     position: absolute;
     top: -26px;
     left: 127px;
@@ -287,27 +348,31 @@
     text-align: center;
     align-content: center;
 }
+
 /* --=== feature secand section ===--> */
-.feature-secand-sec{
+.feature-secand-sec {
     width: 100%;
     height: 3338px;
     padding: 60px 0px;
     background-color: var(--background-color);
 }
+
 /* --=== feature secand section frist div ===--> */
-.feat-secn-div{
+.feat-secn-div {
     width: 1320px;
     height: 111px;
     padding: 0px 12px 60px;
     margin: 0px 171.5px;
 }
-.feat-secn-div h2{
-    color: color-mix(in srgb, var(--default-color) , transparent 50%);
+
+.feat-secn-div h2 {
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
     letter-spacing: 2px;
     font-weight: 500;
     position: relative;
 }
-.feat-secn-div h2::after{
+
+.feat-secn-div h2::after {
     content: "";
     width: 120px;
     height: 1px;
@@ -315,215 +380,262 @@
     background-color: var(--accent-color);
     margin: 10px 10px;
 }
-.feat-secn-div div{
+
+.feat-secn-div div {
     color: var(--heading-color);
 }
+
 /* --=== feature secand section secand div ===--> */
-.feat-secn-div-two{
+.feat-secn-div-two {
     width: 1320px;
     height: 633px;
 }
-.fsdt-div-one{
+
+.fsdt-div-one {
     width: 550px;
     padding: 0px 12px;
     margin-top: 24px;
 }
-.fsdt-div-one img{
+
+.fsdt-div-one img {
     width: 526px;
 }
-.fsdt-div-two{
+
+.fsdt-div-two {
     width: 770px;
     padding: 0px 12px;
 }
-.fsdt-div-two h2{
+
+.fsdt-div-two h2 {
     color: var(--heading-color);
     margin-bottom: 8px;
 }
-.fsdt-div-two p{
+
+.fsdt-div-two p {
     text-transform: none;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
     margin-bottom: 16px;
 }
-.fsdt-div-two li{
+
+.fsdt-div-two li {
     text-transform: none;
     padding-bottom: 10px;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
+
 /* --=== feature secand section thierd div ===--> */
-.feat-secn-div-three{
+.feat-secn-div-three {
     width: 1320px;
     height: 531px;
     margin-top: 100px;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
     font-size: 16px;
 }
-.fsd3-div-one{
+
+.fsd3-div-one {
     width: 770px;
 }
-.fsd3-div-one h3{
+
+.fsd3-div-one h3 {
     color: var(--heading-color);
 }
-.fsd3-div-two{
+
+.fsd3-div-two {
     width: 550px;
     padding: 0px 12px;
     margin-top: 24px;
 }
-.fsd3-div-two img{
+
+.fsd3-div-two img {
     width: 526px;
 }
+
 /* --=== feature secand section fourth div ===--> */
-.feat-secn-div-four{
+.feat-secn-div-four {
     width: 1320px;
     height: 917px;
 }
-.fsd4-div-one{
+
+.fsd4-div-one {
     width: 550px;
     padding: 0px 12px;
     margin-top: 24px;
 }
-.fsd4-div-one img{
+
+.fsd4-div-one img {
     width: 526px;
 }
-.fsd4-div-two{
+
+.fsd4-div-two {
     width: 770px;
     padding: 0px 12px;
 }
-.fsd4-div-two h3{
+
+.fsd4-div-two h3 {
     color: var(--heading-color);
     margin-bottom: 8px;
 }
-.fsd4-div-two p{
+
+.fsd4-div-two p {
     text-transform: none;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
     margin-bottom: 16px;
 }
-.fsd4-div-two li{
+
+.fsd4-div-two li {
     text-transform: none;
     padding-bottom: 10px;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
+
 /* --=== feature secand section 5th div ===--> */
-.feat-secn-div-five{
+.feat-secn-div-five {
     width: 1320px;
     height: 748px;
     margin-top: 100px;
-    color: color-mix(in srgb, var(--default-color) , transparent 20%);
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
     font-size: 16px;
 }
-.fsd5-div-one{
+
+.fsd5-div-one {
     width: 770px;
     padding: 0px 12px;
 }
-.fsd5-div-one h3{
+
+.fsd5-div-one h3 {
     color: var(--heading-color);
 }
-.fsd5-div-two{
+
+.fsd5-div-two {
     width: 550px;
     padding: 0px 12px;
     margin-top: 24px;
 }
-.fsd5-div-two img{
+
+.fsd5-div-two img {
     width: 526px;
 }
+
 /* --=== gallery section ===--> */
-.gallery-sec{
+.gallery-sec {
     width: 100%;
     height: 718px;
     padding: 60px 0px;
     background-color: var(--background-color);
 }
-.gsd-one{
+
+.gsd-one {
     width: 1320px;
     height: 485.5px;
     margin: 0px 171.5px;
     padding: 0px 12px;
     gap: 4px;
 }
-.gsd-box{
+
+.gsd-box {
     width: 321px;
     height: 240.75px;
     overflow: hidden;
 }
-.gsd-box img{
+
+.gsd-box img {
     width: 321px;
     transition: all ease-in-out 0.4s;
 }
+
 /* --=== gallery section hover ===--> */
-.gsd-box-one:hover img{
+.gsd-box-one:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-two:hover img{
+
+.gsd-box-two:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-three:hover img{
+
+.gsd-box-three:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-four:hover img{
+
+.gsd-box-four:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-five:hover img{
+
+.gsd-box-five:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-six:hover img{
+
+.gsd-box-six:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-seven:hover img{
+
+.gsd-box-seven:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
-.gsd-box-eight:hover img{
+
+.gsd-box-eight:hover img {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 /* --=== gallery secand section ===--> */
-.gallery-secand-sec{
+.gallery-secand-sec {
     width: 100%;
     height: 488px;
     position: relative;
     background-image: url(/img/testimonials-bg.jpg);
 }
-.gallery-secand-sec::before{
+
+.gallery-secand-sec::before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    background:color-mix(in srgb, #08005e, transparent 30%);
+    background: color-mix(in srgb, #08005e, transparent 30%);
 }
-.gss-div-one{
+
+.gss-div-one {
     z-index: 2;
 }
-.gss-div-one img{
+
+.gss-div-one img {
     width: 100px;
     border-radius: 50%;
     position: relative;
     border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
-.gss-div-one h3{
+
+.gss-div-one h3 {
     color: var(--contrast-color);
     margin: 10px 0px 5px;
 }
-.gss-div-one h4{
+
+.gss-div-one h4 {
     color: color-mix(in srgb, var(--contrast-color), transparent 40%);
     margin-bottom: 15px;
 }
-.gss-div-one div{
+
+.gss-div-one div {
     margin-bottom: 15px;
 }
-.gss-div-one p{
+
+.gss-div-one p {
     color: var(--contrast-color);
     margin: 0px 130px 15px 130px;
     text-align: center;
 }
-.gss-div-two{
+
+.gss-div-two {
     margin-top: 20px;
 }
-.gss-div-two a{
+
+.gss-div-two a {
     z-index: 1;
     width: 12px;
     height: 12px;
@@ -532,20 +644,24 @@
     background-color: #fff;
     cursor: pointer;
 }
-.gss-div-two-opasity{
+
+.gss-div-two-opasity {
     opacity: 0.4;
-} 
+}
+
 /* --=== team section ===--> */
-.team-sec{
+.team-sec {
     width: 100%;
     height: 697px;
     padding: 60px 0px;
 }
-.team-contaner-dev{
+
+.team-contaner-dev {
     width: 100%;
     height: 466px;
 }
-.team-member{
+
+.team-member {
     width: 440px;
     height: 466px;
     padding: 0px 12px;
@@ -554,10 +670,12 @@
     align-items: flex-start;
     position: relative;
 }
-.team-member img{
+
+.team-member img {
     width: 416px;
 }
-.team-card{
+
+.team-card {
     width: 376px;
     height: 100px;
     padding: 20px 15px;
@@ -569,13 +687,15 @@
     left: 30px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.team-card h4{
+
+.team-card h4 {
     color: var(--heading-color);
     padding-bottom: 10px;
     position: relative;
     margin-bottom: 10px;
 }
-.team-card h4::after{
+
+.team-card h4::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -584,69 +704,88 @@
     height: 1px;
     background-color: color-mix(in srgb, var(--default-color), transparent 60%);
 }
-.team-card span{
+
+.team-card span {
     color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
-.team-logo{
+
+.team-logo {
     position: absolute;
     bottom: 20px;
     right: 15px;
 }
-.team-logo a{
+
+.team-logo a {
     color: color-mix(in srgb, var(--default-color), transparent 70%);
     font-size: 18px;
 }
+
 /* --=== team logo hover ===--> */
-.team-logo-a-1:hover{
+.team-logo-a-1:hover {
     color: var(--accent-color);
 }
-.team-logo-a-2:hover{
+
+.team-logo-a-2:hover {
     color: var(--accent-color);
 }
-.team-logo-a-3:hover{
+
+.team-logo-a-3:hover {
     color: var(--accent-color);
 }
-.team-logo-a-4:hover{
+
+.team-logo-a-4:hover {
     color: var(--accent-color);
 }
-.team-logo-a-5:hover{
+
+.team-logo-a-5:hover {
     color: var(--accent-color);
 }
-.team-logo-a-6:hover{
+
+.team-logo-a-6:hover {
     color: var(--accent-color);
 }
-.team-logo-a-7:hover{
+
+.team-logo-a-7:hover {
     color: var(--accent-color);
 }
-.team-logo-a-8:hover{
+
+.team-logo-a-8:hover {
     color: var(--accent-color);
 }
-.team-logo-a-9:hover{
+
+.team-logo-a-9:hover {
     color: var(--accent-color);
 }
-.team-logo-a-10:hover{
+
+.team-logo-a-10:hover {
     color: var(--accent-color);
 }
-.team-logo-a-11:hover{
+
+.team-logo-a-11:hover {
     color: var(--accent-color);
 }
-.team-logo-a-12:hover{
+
+.team-logo-a-12:hover {
     color: var(--accent-color);
 }
+
 /* --=== Pricing section ===--> */
-.pricing-sec{
+.pricing-sec {
     width: 100%;
     height: 920px;
     padding: 60px 0px;
 }
-.pricing-contener{
+
+.pricing-contener {
     width: 1320px;
     height: 690px;
 }
-.pricing-house{
+
+.pricing-house {
     padding: 0px 12px;
 }
-.pricing-box{
+
+.pricing-box {
     padding: 40px;
     width: 416px;
     border-radius: 10px;
@@ -655,15 +794,18 @@
     flex-direction: column;
     background-color: color-mix(in srgb, var(--accent-color), transparent 96%);
 }
-.pricing-box h3{
+
+.pricing-box h3 {
     color: var(--heading-color);
     margin-bottom: 15px;
     font-weight: 600;
 }
-.pricing-box p{
+
+.pricing-box p {
     margin-bottom: 16px;
 }
-.pricing-box a{
+
+.pricing-box a {
     width: 336px !important;
     height: 46px;
     margin: 20px 0px 6px;
@@ -674,51 +816,72 @@
     font-weight: 500;
     text-align: center;
 }
-.pricing-box ul li{
+.pricing-ticket{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    padding: 4px 15px 6px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+.pricing-box ul li {
     padding: 13px 0px;
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 /* --=== Pricing havering links ===--> */
-.pricing-link-1:hover{
+.pricing-link-1:hover {
     border: 0px;
     background-color: var(--accent-color);
     color: var(--contrast-color);
 }
-.pricing-link-2:hover{
+
+.pricing-link-2{
+    border-width: 0px;
+    border-color: transparent !important;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.pricing-link-3:hover {
     border: 0px;
     background-color: var(--accent-color);
     color: var(--contrast-color);
 }
-.pricing-link-3:hover{
-    border: 0px;
-    background-color: var(--accent-color);
-    color: var(--contrast-color);
-}
+
 /* --=== frequantly asked questions section ===--> */
-.frequently-sec{
+.frequently-sec {
     width: 100%;
     height: 644px;
     padding: 60px 0px;
     background-color: var(--light-background-color);
 }
-.freq-sec-div-one{
+
+.freq-sec-div-one {
     width: 970px;
     height: 100%;
 }
-.freq-div-one{
+
+.freq-div-one {
     padding: 0px 48px;
 }
-.freq-div-one h3{
+
+.freq-div-one h3 {
     margin-bottom: 8px;
     color: var(--heading-color);
 }
-.freq-div-one p{
+
+.freq-div-one p {
     margin-bottom: 16px;
     text-transform: none;
 }
-.freq-div-two{
+
+.freq-div-two {
     width: 850px;
     height: 122px;
     padding: 20px;
@@ -727,7 +890,8 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--heading-color);
 }
-.freq-div-three{
+
+.freq-div-three {
     width: 850px;
     height: 146px;
     padding: 20px;
@@ -736,7 +900,8 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--heading-color);
 }
-.freq-div-four{
+
+.freq-div-four {
     width: 850px;
     height: 146px;
     padding: 20px;
@@ -744,38 +909,45 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: var(--heading-color);
 }
-.freq-arrow{
+
+.freq-arrow {
     position: absolute;
     top: 20px;
     right: 20px;
     font-size: 16px;
 }
+
 /* --=== frequantly asked questions img ===--> */
-.freq-sec-div-two{
+.freq-sec-div-two {
     width: 693px;
     height: 100%;
     padding: 0px 12px;
 }
-.freq-sec-div-two img{
+
+.freq-sec-div-two img {
     width: 669px;
 }
+
 /* --=== contact section ===--> */
-.contact-sec{
+.contact-sec {
     width: 100%;
     height: 581px;
     padding: 60px 0px;
 }
-.contact-contaner{
+
+.contact-contaner {
     width: 1320px;
     height: 350px;
 }
+
 /* --=== contact information ===--> */
-.info-div{
+.info-div {
     width: 440px;
     margin-top: 24px;
     padding: 0px 12px;
 }
-.info-icon{
+
+.info-icon {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -787,34 +959,40 @@
     font-weight: 100;
     margin-right: 15px;
 }
+
 /* --=== form  ===--> */
-.form-div{
+.form-div {
     width: 880px;
 }
-.div-form-one{
+
+.div-form-one {
     width: 440px;
     height: 43px;
     padding: 0px 12px;
 }
-.div-form-two{
+
+.div-form-two {
     width: 880px;
     height: 43px;
     margin-top: 24px;
     padding: 0px 12px;
 }
-.div-form-three{
+
+.div-form-three {
     width: 880px;
     height: 148px;
     margin-top: 24px;
     padding: 0px 12px;
 }
-.div-form-four{
+
+.div-form-four {
     width: 880px;
     height: 44px;
     margin-top: 24px;
     padding: 0px 12px;
 }
-.form-style{
+
+.form-style {
     width: 100%;
     height: 100%;
     font-weight: 400;
@@ -823,10 +1001,151 @@
     padding: 10px 15px;
     color: rgb(1, 1, 1 / .5);
 }
-.button-style{
+
+.button-style {
     padding: 10px 30px;
     border-radius: 50px;
     background-color: var(--accent-color);
     color: var(--contrast-color);
     border: 0;
+    font-size: 16px;
+}
+
+/* --=== _____________footer________ ===--> */
+.foot {
+    width: 100%;
+    height: 413.5px;
+    background-color: #08005e;
+}
+
+/* --===  frist div of footer ===--> */
+.foot-div-one {
+    width: 1320px;
+    height: 265px;
+}
+
+.foot-one-div-1 {
+    width: 440px;
+    height: 241px;
+    padding: 0px 12px;
+    margin-top: 24px;
+}
+
+.foot-media-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+/* --===  secand div of footer ===--> */
+.foot-one-div-2 {
+    width: 220px;
+    height: 211px;
+    margin: 24px 0px 30px;
+    padding: 0px 12px;
+}
+
+.foot-one-div-2 h4 {
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.foot-one-div-2 ul li a {
+    color: color-mix(in srgb, #ffffff, transparent 30%);
+    font-size: 14px;
+}
+
+/* --=== hover secand div of footer ===--> */
+.fon1-one:hover a {
+    color: var(--accent-color);
+}
+
+.fon1-two:hover a {
+    color: var(--accent-color);
+}
+
+.fon1-three:hover a {
+    color: var(--accent-color);
+}
+
+.fon1-four:hover a {
+    color: var(--accent-color);
+}
+
+.fon1-five:hover a {
+    color: var(--accent-color);
+}
+
+/* --=== thred div of footer ===--> */
+.foot-one-div-3 {
+    width: 220px;
+    height: 211px;
+    margin: 24px 0px 30px;
+    padding: 0px 12px;
+}
+
+.foot-one-div-3 h4 {
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.foot-one-div-3 ul li a {
+    color: color-mix(in srgb, #ffffff, transparent 30%);
+    font-size: 14px;
+}
+
+.foot-one-div-4 {
+    width: 440px;
+    height: 241px;
+    margin: 24px 0px 0px;
+    padding: 0px 12px;
+    color: var(--contrast-color);
+}
+
+.foot-one-div-4 h4 {
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+}
+
+.foot-one-div-4 p {
+    margin-bottom: 16px;
+}
+
+.fod4-div {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 6px 8px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+    display: flex;
+    height: 50px;
+}
+.em-in{
+    border: 0;
+    padding: 4px;
+    width: 100%;
+    background-color: #08005e;
+    color: var(--contrast-color);
+}
+.but-sub{
+    border: 0;
+    font-size: 16px;
+    padding: 0 20px;
+    margin: -7px -8px -7px 0;
+    background: color-mix(in srgb, var(--accent-color), transparent 20%);
+    color: var(--contrast-color);
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+}
+/* --=== copyright footer ===--> */
+.foot-div-two {
+    width: 1320px;
+    height: 97.5px;
+    margin: 24px 171.5px 0px;
+    padding: 25px 0px;
+    color: var(--contrast-color);
 }

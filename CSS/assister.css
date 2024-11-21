@@ -144,6 +144,9 @@
 .font-italic{
     font-style: italic;
 }
+.text-trasform-capitalize{
+    text-transform: capitalize !important;
+}
 .text-trasform-uppercase{
     text-transform: uppercase !important;
 }
@@ -156,8 +159,23 @@
 .text-align-center{
     text-align: center;
 }
+.word-spacing-5px{
+    word-spacing: 5px ;
+}
+.ward-spacing-2px{
+    word-spacing: 2px ;
+}
 .line-height-1point5{
     line-height: 1.5;
+}
+.letter-spacing-1px{
+    letter-spacing: 1px;
+}
+.margin-top-6px{
+    margin-top: 6px;
+}
+.margin-top-16px{
+    margin-top: 16px;
 }
 .margin-top-40px{
     margin-top: 40px;
@@ -171,6 +189,9 @@
 .margin-bottom-16px{
     margin-bottom: 16px;
 }
+.margin-bottom-25px{
+    margin-bottom: 25px;
+}
 .margin-bottom-40px{
     margin-top: -40px;
 }
@@ -179,6 +200,24 @@
 }
 .margin-left-5px{
     margin-left: 5px;
+}
+.padding-top-16px{
+    padding-top: 16px;
+}
+.padding-top-24px{
+    padding-top: 24px;
+}
+.border-top-1px{
+    border-top: 1px solid color-mix(in srgb, #ffffff, transparent 90%);
+}
+.padding-top-bot-10px{
+    padding: 10px 0px;
+}
+.padding-bot-10px{
+    padding-bottom: 10px;
+}
+.border-1px{
+    border: 1px solid color-mix(in srgb, #ffffff, transparent 50%);
 }
 /* --____________ colors ____________--> */
 .color__ffbb2c{
@@ -237,4 +276,10 @@
 }
 .color-040677{
     color: #040677;
+}
+.color-ffffff{
+    color: #ffffff;
+}
+.color-white-pricing-30{
+    color: color-mix(in srgb, #ffffff, transparent 30%);
 }

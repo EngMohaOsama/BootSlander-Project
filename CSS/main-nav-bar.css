@@ -9,6 +9,11 @@
     --heading-font: "Raleway", sans-serif;
     --nav-font: "Poppins", sans-serif;
 }
+.header-contaner{
+    margin: 0px 171.5px;
+    padding: 0px 12px;
+    /* height: 95.5px; */
+}
 /* -- format all uls --> */
 ul {
     list-style: none;
@@ -30,8 +35,9 @@ header {
 
 .nav {
     width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    height: 52.5px;
+    /* padding-right: 1.5rem;
+    padding-left: 1.5rem; */
     margin-right: auto;
     margin-left: auto;
 
@@ -45,6 +51,7 @@ header {
     top: 25px;
     left: 0;
     background-color: #1acc8d;
+    opacity: 0;
 }
 
 a>h1 {
@@ -56,7 +63,7 @@ a>h1 {
 }
 
 
-li {
+.nav__link {
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
@@ -87,8 +94,8 @@ li {
 .deep__drop__two {
     position: absolute;
     background-color: white;
-    top: -20px;
-    left: -165px;
+    top: 35px;
+    left: -145px;
     width: 150px;
     height: 200px;
     border-radius: 5%;
@@ -98,4 +105,14 @@ li {
     align-items: center;
     justify-content: space-evenly;
     opacity: 0;
+}
+/* -- nav havaring  --> */
+.nav__havering__1:hover.nav__link::after{
+    opacity: 1;
+}
+.nav__hovering__2:hover .deep__drop{
+    opacity: 1;
+}
+.nav__hovering__3:hover .deep__drop__two{
+    opacity: 1;
 }
