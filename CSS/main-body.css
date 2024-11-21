@@ -19,7 +19,7 @@
     width: 100%;
     /* height: 70vh; */
     background-color: blue;
-    background-image: url(./img/hero-bg-2.jpg);
+    background-image: url(.././img/hero-bg-2.jpg);
     height: 795px;
     padding: 120px 0px 120px 0px;
 }
@@ -163,6 +163,9 @@
     width: 385px;
     height: 351px;
 }
+.wendow-fram.div{
+    transition: all ease-in-out 0.4s;
+}
 
 .wendow-fram {
     padding: 50px 40px;
@@ -227,6 +230,7 @@
     height: 72px;
     display: flex;
     align-items: center;
+    transition: all ease-in-out 0.4s;
 }
 
 .about-sec-wendow a {
@@ -243,62 +247,7 @@
 }
 
 /* --=== hover color changing about secand section ===--> */
-.about-sec-wendow-1:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-2:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-3:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-4:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-5:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-6:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-7:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-8:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-9:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-10:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-11:hover {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.about-sec-wendow-12:hover {
+.about-sec-wendow:hover {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
@@ -598,7 +547,7 @@
     width: 100%;
     height: 488px;
     position: relative;
-    background-image: url(./img/testimonials-bg.jpg);
+    background-image: url(.././img/testimonials-bg.jpg);
 }
 
 .gallery-secand-sec::before {
@@ -824,6 +773,7 @@
     border: 1px solid var(--default-color);
     font-weight: 500;
     text-align: center;
+    transition: all ease-in-out 0.4s;
 }
 .pricing-ticket{
     position: absolute;
@@ -1065,6 +1015,7 @@
 .foot-one-div-2 ul li a {
     color: color-mix(in srgb, #ffffff, transparent 30%);
     font-size: 14px;
+    transition: all ease-in-out 0.4s;
 }
 
 /* --=== hover secand div of footer ===--> */
@@ -1104,6 +1055,7 @@
 .foot-one-div-3 ul li a {
     color: color-mix(in srgb, #ffffff, transparent 30%);
     font-size: 14px;
+    transition: all ease-in-out 0.4s;
 }
 
 .foot-one-div-4 {

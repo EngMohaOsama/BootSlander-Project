@@ -106,9 +106,9 @@ a>h1 {
 }
 /* -- nav havaring  --> */
 .nav__havering__1:hover.nav__link::after{
-    /* animation-name: apering-line;
+    animation-name: apering-line;
     animation-duration: 0.5s;
-    animation-timing-function: linear; */
+    animation-timing-function: linear;
     opacity: 1;
 }
 .nav__hovering__2:hover .deep__drop{
@@ -118,11 +118,11 @@ a>h1 {
     opacity: 1;
 }
 /* -- animation havaring  --> */
-/* @keyframes apering-line{
+@keyframes apering-line{
     0%{
         width: 0%;
     }
     100%{
         width: 100%;
     }
-} */
+}
