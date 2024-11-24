@@ -34,9 +34,11 @@
 /* --==== intro pragraphe ===--> */
 .intro-p {
     z-index: 3;
-    width: 575px;
-    height: 380px;
+    width: 660px;
+    height: 555px;
     color: #bbb9d3;
+    padding: 0 12px;
+    margin-top: 24px;
 }
 
 .frist-line {

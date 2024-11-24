@@ -157,64 +157,70 @@
     text-decoration: line-through;
 }
 .text-align-center{
-    text-align: center;
+    text-align: center !important;
 }
 .word-spacing-5px{
-    word-spacing: 5px ;
+    word-spacing: 5px !important;
 }
 .ward-spacing-2px{
-    word-spacing: 2px ;
+    word-spacing: 2px !important;
 }
 .line-height-1point5{
-    line-height: 1.5;
+    line-height: 1.5 !important;
 }
 .letter-spacing-1px{
-    letter-spacing: 1px;
+    letter-spacing: 1px !important;
+}
+.letter-spacing-point5px{
+    letter-spacing: .5px !important;
 }
 .margin-top-6px{
-    margin-top: 6px;
+    margin-top: 6px !important; 
 }
 .margin-top-16px{
-    margin-top: 16px;
+    margin-top: 16px !important;
 }
 .margin-top-40px{
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 .margin-bottom-5px{
-    margin-bottom: 5px;
+    margin-bottom: 5px !important; 
 }
 .margin-bottom-8px{
-    margin-bottom: 8px;
+    margin-bottom: 8px !important;
 }
 .margin-bottom-16px{
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
 .margin-bottom-25px{
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 .margin-bottom-40px{
-    margin-top: -40px;
+    margin-top: -40px !important;
 }
 .margin-left-20px{
-    margin-left: 20px;
+    margin-left: 20px !important;
 }
 .margin-left-5px{
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 .padding-top-16px{
-    padding-top: 16px;
+    padding-top: 16px !important;
 }
 .padding-top-24px{
-    padding-top: 24px;
+    padding-top: 24px !important;
 }
 .border-top-1px{
-    border-top: 1px solid color-mix(in srgb, #ffffff, transparent 90%);
+    border-top: 1px solid color-mix(in srgb, #ffffff, transparent 90%) !important;
+}
+.padding-right-0{
+    padding-right: 0px !important;
 }
 .padding-top-bot-10px{
-    padding: 10px 0px;
+    padding: 10px 0px !important;
 }
 .padding-bot-10px{
-    padding-bottom: 10px;
+    padding-bottom: 10px !important;
 }
 .border-1px{
     border: 1px solid color-mix(in srgb, #ffffff, transparent 50%);
