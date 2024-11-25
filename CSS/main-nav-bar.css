@@ -5,14 +5,58 @@
 }
 
 :root {
+    --header-height: 3.5rem;
+    /*========= Colors =========*/
+    --background-color: #ffffff;
+    --default-color: #444444;
+    --heading-color: #040677;
+    --accent-color: #1acc8d;
+    --surface-color: #ffffff;
+    --contrast-color: #ffffff;
+    --light-background-color: #f4f5fe;
+    --nav-background-color: #10058c;
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --black-color: hsl(220, 24%, 12%);
+    --black-color-light: hsl(220, 24%, 15%);
+    --black-color-lighten: hsl(220, 24%, 18%);
+    --body-color: hsl(220, 100%, 97%);
+    /*========= Font and typography =========*/
+    /* 0.5rem = 8px | 1rem = 16px*/
+    --normal-font-size: 0.938rem;
+    /*========= Font Family =========*/
     --default-font: "Roboto", system-ui;
     --heading-font: "Raleway", sans-serif;
     --nav-font: "Poppins", sans-serif;
+    /*========= Font weight =========*/
+    --font-reguler: 400;
+    --font-semi-bold: 600;
+    /*========= Z index =========*/
+    --z-tooltip: 10;
+    --z-fized: 100;
 }
-.header-contaner{
-    margin: 0px 171.5px;
-    padding: 0px 12px;
-    /* height: 95.5px; */
+
+/*=============== HEADER ===============*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--nav-background-color);
+    padding: 20px 0px;
+    z-index: 5;
+    color: var(--contrast-color);
+}
+
+.header__contaner {
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 171.5px;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
 }
 /* -- format all uls --> */
 ul {
@@ -20,30 +64,130 @@ ul {
     font-family: var(--nav-font);
     font-size: 15px;
 }
+
 /* -- format all links --> */
 a {
-    padding:0px ;
+    padding: 0px;
     text-decoration: none;
     color: #fff;
 }
-
-header {
-    padding: 20px 0px;
-    width: 100%;
-    background-color: #10058c;
-    z-index: 5;
+h1 {
+    font-size: 30px !important;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    text-align: center !important;
+    align-content: center !important;
+}
+/*=============== NAV ===============*/
+.nav__data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
 }
 
-.nav {
-    width: 100%;
-    height: 52.5px;
-    padding: 0px !important;
-    margin-right: auto;
-    margin-left: auto;
+.nav__taggle {
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
 
+.nav__burger,
+.nav__close {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: opacity .1s, transform .2s;
+}
+
+.nav__close {
+    opacity: 0;
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1200px) {
+    .nav__menu {
+        position: absolute;
+        left: 0;
+        top: 5.5rem;
+        width: 100%;
+        height: calc(100vh - 3.5rem);
+        overflow: auto;
+        pointer-events: none;
+        opacity: 0;
+        transition: top .4s, opacity .3s;
+    }
+
+    .nav__menu::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .nav__list {
+        background-color: var(--black-color);
+        padding-top: 1rem;
+    }
+}
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
+
+    .nav__link {
+        padding-inline: 1rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1200px) {
+    .container {
+        margin-inline: auto;
+    }
+    .nav__data{
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+        margin: 0 171.5px;
+    }
+
+    .nav__taggle {
+        display: none;
+    }
+
+    .nav__list {
+        height: 100%;
+        display: flex;
+    }
+
+    .nav__link {
+        height: 100%;
+        display: flex;
+        justify-content: initial;
+    }
+}
+
+.nav__link {
+    padding: 15px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color .3s;
+    position: relative;
 }
 /* -- format under line of nav li --> */
-.nav__link::after{
+.nav__link::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -54,28 +198,11 @@ header {
     opacity: 0;
 }
 
-a>h1 {
-    font-size: 30px !important;
-    font-family: var(--heading-font);
-    font-weight: 700;
-    text-align: center !important;
-    align-content: center !important;
-}
-
-
-.nav__link {
-    /* margin-left: 10px;
-    margin-right: 10px; */
-    position: relative;
-    padding: 15px 14px;
-}
-.deep{
-    position: relative;
-}
 /* -- format for the frist deep drop  --> */
-.a-deep-drop{
+.a-deep-drop {
     color: #444;
 }
+
 .deep__drop {
     position: absolute;
     background-color: white;
@@ -93,18 +220,20 @@ a>h1 {
     opacity: 0;
     transition: all ease-in-out 0.4s;
 }
-.arrow-deep-drop{
+
+.arrow-deep-drop {
     position: absolute;
     right: -45px;
     top: 5px;
 }
+
 /* -- format for the frist deep drop  --> */
 .deep__drop__two {
     position: absolute;
     background-color: white;
     top: -10px;
     left: -210px;
-    padding: 15px 14px;
+    padding: calc(1.5ram * .5) auto;
     width: 200px;
     height: 210px;
     border-radius: 2%;
@@ -116,29 +245,34 @@ a>h1 {
     opacity: 0;
     transition: all ease-in-out 0.4s;
 }
+
 /* -- nav havaring  --> */
-.nav__havering__1:hover.nav__link::after{
+.nav__havering__1:hover.nav__link::after {
     animation-name: apering-line;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     opacity: 1;
 }
-.nav__hovering__2:hover .deep__drop{
+
+.nav__hovering__2:hover .deep__drop {
     opacity: 1;
 }
-.nav__hovering__3:hover .deep__drop__two{
+
+.nav__hovering__3:hover .deep__drop__two {
     opacity: 1;
 }
-.a-deep-drop:hover{
+
+.a-deep-drop:hover {
     color: #1acc8d;
 }
 
 /* -- animation havaring  --> */
-@keyframes apering-line{
-    0%{
+@keyframes apering-line {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 22px;
     }
 }

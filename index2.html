@@ -5,19 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/main.css">
+    <!-- --================== link remixicon =====================-- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- --================== link font famly roboto =====================-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- --================== link font famly raleway =====================-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- --================== link font famly poppins =====================-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- --================== css link mheader =====================-- -->
+    <link rel="stylesheet" href="CSS/main-nav-bar.css">
+    <!-- --================== css link assist =====================-- -->
+    <link rel="stylesheet" href="CSS/assister.css">
+    <!-- --================== css link main body =====================-- -->
+    <link rel="stylesheet" href="CSS/main-body.css">
+    <script src="/Js/main.js"></script>
 </head>
 
 <body>
     <!-- --================== Header =====================-- -->
-    <div class="hdr">
+    <header>
         <!-- --================== NAV BAR =====================-- -->
-        <div class="nav">
+        <nav class="nav header__container">
             <!-- --================== NAV head =====================-- -->
+            <div class="nav__data container">
+                <a href="#" class="nav-head">
+                    <h1 class=".nav-head">Bootslander</h1>
+                </a>
+                <div class="nav__taggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
             <!-- --================== NAV manu =====================-- -->
-        </div>
-        <div class="hdr-cnt"></div>
-    </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list text-trasform-capitalize font-waight-400 letter-spacing-point5px">
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">home</a>
+                    </li>
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">about</a>
+                    </li>
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">features</a>
+                    </li>
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">gallery</a>
+                    </li>
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">team</a>
+                    </li>
+                    <li class="nav__link nav__havering__1">
+                        <a href="#">pricing</a>
+                    </li>
+                    <li class="nav__link nav__havering__1 nav__hovering__2 ">
+                        <a href="#">dropdown</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                        <ul class="deep__drop">
+                            <li>
+                                <a class="a-deep-drop" href="#">dropdown 1</a>
+                            </li>
+                            <li class="nav__hovering__3 position-relative nav__hovering__4">
+                                <a class="a-deep-drop " href="#">deep dropdown <i
+                                        class="ri-arrow-down-s-line arrow-deep-drop"></i></a>
+                                <ul class="deep__drop__two">
+                                    <li>
+                                        <a class="a-deep-drop" href="#">deep dropdown 1</a>
+                                    </li>
+                                    <li>
+                                        <a class="a-deep-drop" href="#">deep dropdown 2</a>
+                                    </li>
+                                    <li>
+                                        <a class="a-deep-drop" href="#">deep dropdown 3</a>
+                                    </li>
+                                    <li>
+                                        <a class="a-deep-drop" href="#">deep dropdown 4</a>
+                                    </li>
+                                    <li>
+                                        <a class="a-deep-drop" href="#">deep dropdown 5</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="a-deep-drop" href="#">dropdown 2</a>
+                            </li>
+                            <li>
+                                <a class="a-deep-drop" href="#">dropdown 3</a>
+                            </li>
+                            <li>
+                                <a class="a-deep-drop" href="#">dropdown 4</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__link nav__havering__1 padding-right-0">
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
